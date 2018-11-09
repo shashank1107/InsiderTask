@@ -28,7 +28,6 @@ For this problem, I am constraining solution to these parameters:
 - It is a stateless system.
 - It receives data from the stream and produces it in kafka.
 - As the system is stateless, this can be put on autoscaled mode.
-- Topics and partitions logic while producing ????
 > Nodejs: It is asynchronous and event driven, can process thousands of events concurrently and efficiently.
 
 ## Speed Layer
