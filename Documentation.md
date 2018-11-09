@@ -206,6 +206,7 @@ ssc.checkpoint(checkpointDir)
 ### Use cases
 A warehouse to store historical data which can be used for analytics, Business Intelligence.
 Design.
+
 Why BigQuery?? 
 - It is fully managed persistent data warehouse
 - Highly available and performant for running complex queries (e.g. joins)
