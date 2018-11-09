@@ -204,8 +204,10 @@ ssc.checkpoint(checkpointDir)
 
 ## Data Warehousing Pipeline
 ### Use cases
-A warehouse to store historical data which can be used for analytics, Business Intelligence.
+- A warehouse to store historical data which can be used for analytics, Business Intelligence.
 Design.
+- Will be running machine learning algorithms to predict data daily.
+
 
 Why BigQuery?? 
 - It is fully managed persistent data warehouse
@@ -228,3 +230,4 @@ CREATE TABLE mydataset.newtable
    description="a table partitioned by transaction_date"
    )
 ```
+
