@@ -100,7 +100,7 @@ Safari/537.36"
 ```
 
 #### Detailed discussion on Speed Layer
-This creates a kafka stream, processes events and syncs update profile of an user in Elasticsearch. 
+This creates a kafka stream, processes events and syncs updated profile of an user in Elasticsearch. 
 Sample Scala code is explained below:
 
 1.1 Declaring config variables
