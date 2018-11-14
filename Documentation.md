@@ -225,7 +225,6 @@ CREATE TABLE mydataset.newtable
 (session_id VARCHAR(50), event VARCHAR(50), partner_id INT64, partner_name VARCHAR(50), cart_amount INT64, country VARCHAR(20), user_agent VARCHAR(100), user_id VARCHAR(50), version FLOAT, language VARCHAR(20), date DATE, search_query VARCHAR(100), current_url VARCHAR(100), category VARCHAR(50), referrer VARCHAR(50), init_session INT64, page_type VARCHAR(50))
  PARTITION BY date
  OPTIONS(
-   partition_expiration_days=3,
    description="a table partitioned by transaction_date"
    )
 ```
