@@ -55,7 +55,7 @@ Architecture for our use case:
 
 > You need to process around 350K messages per minute. Using 100 partitions, you must have 100 consumer threads. One possible scenario - 10 consumers instances each having 10 threads. Each thread can efficiently process 3.5K messages per minute.
 
-- Partitioning logic: (partner_id % 100). It is based on user_id because we should keep track of same client’s users in case of any issues.
+- Partitioning logic: (partner_id % 100). It is based on partner_id because we should keep track of same client’s users in case of any issues.
 - Format of data: JSON (for additional metadata, we can prefer other formats like transit)
 It is linked to Apache Spark which then processes data in real-time
 
