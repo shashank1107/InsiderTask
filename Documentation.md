@@ -218,7 +218,7 @@ Why BigQuery??
  
 
 - We will use secor to dump kafka logs to Google cloud storage persistently. Then a loading script will insert data in BigQuery in batch.
-- Partitioned table will be created in BigQuery day wise, based on event_time field in kafka message.
+- Partitioned table will be created in BigQuery day wise, based on date field in kafka message.
 
 ``` sh
 CREATE TABLE mydataset.newtable 
